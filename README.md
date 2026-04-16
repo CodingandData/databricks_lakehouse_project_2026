@@ -1,4 +1,4 @@
-[data_lakehouse.drawio](https://github.com/user-attachments/files/26776328/data_lakehouse.drawio)# Databricks Lakehouse Project 2026
+# Databricks Lakehouse Project 2026
 
 Welcome to the **Databricks Lakehouse Project 2026** repository! 🚀
 This project demonstrates a comprehensive datalakehouse solution using the cloud-based data intelligence platform, Databricks. It is designed as a portfolio project, and highlights industry best practices in data engineering.
