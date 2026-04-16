@@ -32,3 +32,9 @@ These insights empower stakeholders with key business metrics, enabling key deci
 ---
 
 ## 🛡️ License
+
+This project is licensed under the MIT License do feel free to use, modify, and share this project with proper attribution.
+
+## 🧑‍🦰 About Me
+
+Hi! I'm Kevin Botelho, an aspiring data engineer who enjoys coding!
