@@ -34,7 +34,7 @@ These insights empower stakeholders with key business metrics, enabling key deci
 ---
 
 # Data Architecture 🏗️
-<img width="984" height="1011" alt="data_lakehouse drawio" src="https://github.com/user-attachments/assets/88a68c94-b226-453a-ac3a-6f827d5c7e85" />
+
 
 
 
