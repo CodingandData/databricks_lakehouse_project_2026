@@ -21,7 +21,7 @@ Develop a data lakehouse using Databricks to consolidate sales data, enabling an
 
 ---
 
-## BI: Analytics & Reporting (Data Analytics)
+### BI: Analytics & Reporting (Data Analytics)
 
 #### Objective
 Develop analytics to deliver detailed insights into:
