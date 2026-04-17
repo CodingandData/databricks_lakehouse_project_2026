@@ -7,7 +7,7 @@ This project demonstrates a comprehensive datalakehouse solution using the cloud
 
 ## 🚀 Project Requirements
 
-### Building the Data Lakehouse
+### Building the Data Lakehouse (Data Engineering)
 
 #### Objective
 Develop a data lakehouse using Databricks to consolidate sales data, enabling analytical reporting and informed decision-making.
@@ -21,7 +21,7 @@ Develop a data lakehouse using Databricks to consolidate sales data, enabling an
 
 ---
 
-## BI: Analytics & Reporting
+## BI: Analytics & Reporting (Data Analytics)
 
 #### Objective
 Develop analytics to deliver detailed insights into:
