@@ -1,0 +1,57 @@
+# Databricks notebook source
+# MAGIC %md
+# MAGIC #Read from CSV File and Write to Bronze Layer
+
+# COMMAND ----------
+
+df = (
+     spark.read.option("header", "true")
+     .option("inferSchema", "true" )
+     .csv("/Volumes/workspace/bronze/source_systems/source_crm/cust_info.csv")
+)
+df.write.mode("overwrite").saveAsTable("bronze.crm_cust_info")
+
+# COMMAND ----------
+
+df = (
+     spark.read.option("header", "true")
+     .option("inferSchema", "true" )
+     .csv("/Volumes/workspace/bronze/source_systems/source_crm/prd_info.csv")
+)
+df.write.mode("overwrite").saveAsTable("bronze.crm_prd_info")
+
+# COMMAND ----------
+
+df = (
+     spark.read.option("header", "true")
+     .option("inferSchema", "true" )
+     .csv("/Volumes/workspace/bronze/source_systems/source_crm/sales_details.csv")
+)
+df.write.mode("overwrite").saveAsTable("bronze.crm_sales_details")
+
+# COMMAND ----------
+
+df = (
+     spark.read.option("header", "true")
+     .option("inferSchema", "true" )
+     .csv("/Volumes/workspace/bronze/source_systems/source_erp/CUST_AZ12.csv")
+)
+df.write.mode("overwrite").saveAsTable("bronze.erp_CUST_AZ12")
+
+# COMMAND ----------
+
+df = (
+     spark.read.option("header", "true")
+     .option("inferSchema", "true" )
+     .csv("/Volumes/workspace/bronze/source_systems/source_erp/LOC_A101.csv")
+)
+df.write.mode("overwrite").saveAsTable("bronze.erp_LOC_A101")
+
+# COMMAND ----------
+
+df = (
+     spark.read.option("header", "true")
+     .option("inferSchema", "true" )
+     .csv("/Volumes/workspace/bronze/source_systems/source_erp/PX_CAT_G1V2.csv")
+)
+df.write.mode("overwrite").saveAsTable("bronze.erp_PX_CAT_G1V2")
